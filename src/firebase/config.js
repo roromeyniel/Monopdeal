@@ -6,7 +6,6 @@ import { getAuth, signInAnonymously } from 'firebase/auth';
 const firebaseConfig = {
   apiKey: "AIzaSyBRWuV1gbJwQtQtMRNQ08PG6MPg_-CRjGo",
   authDomain: "monopoly-535fb.firebaseapp.com",
-  databaseURL: "https://monopoly-535fb-default-rtdb.europe-west1.firebasedatabase.app",
   projectId: "monopoly-535fb",
   storageBucket: "monopoly-535fb.firebasestorage.app",
   messagingSenderId: "1093725683460",
