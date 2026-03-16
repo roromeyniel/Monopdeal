@@ -18,7 +18,9 @@ export function useGame() {
 
   // Sign in anonymously on mount
   useEffect(() => {
-    signInUser().then(setUser).catch(console.error);
+    signInUser()
+      .then(setUser)
+      .catch(e => alert('Erreur Firebase: ' + e.message));
   }, []);
 
   // Subscribe to room updates when we have a code
