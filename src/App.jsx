@@ -18,6 +18,7 @@ export default function App() {
       <div className="loading-screen">
         <div className="spinner" />
         <p>Connecting...</p>
+        <p style={{color:'red'}}>{error}</p>
       </div>
     );
   }
